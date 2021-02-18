@@ -29,8 +29,4 @@ public class LoginStepDefinitions {
         String actualTitle = homePage.getPageTitleText();
         Assert.assertEquals(string, actualTitle);
     }
-
-
-
-
 }
