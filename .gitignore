@@ -1,3 +1,4 @@
-.idea
-target
-*.iml
+##normally I should use gitignore but this is just sample.
+##.idea
+##target
+##*.iml
