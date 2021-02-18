@@ -26,6 +26,7 @@ public class LoginPage {
         usernameElement.sendKeys(username);
         passwordElement.sendKeys(password, Keys.ENTER);
 
+
     }
 
 }

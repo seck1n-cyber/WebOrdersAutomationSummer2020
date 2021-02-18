@@ -12,7 +12,6 @@ import org.junit.Assert;
 public class LoginStepDefinitions {
     LoginPage loginPage = new LoginPage();
     HomePage homePage = new HomePage();
-//    instance = object
 
     @Given("user is on the landing page")
     public void user_is_on_the_landing_page() {
@@ -30,6 +29,8 @@ public class LoginStepDefinitions {
         String actualTitle = homePage.getPageTitleText();
         Assert.assertEquals(string, actualTitle);
     }
+
+
 
 
 }
